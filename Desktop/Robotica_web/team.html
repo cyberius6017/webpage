@@ -1,0 +1,164 @@
+<html>
+    <head>
+    <!-- Here you initialize all the libraries -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+	<!-- Font awesome icons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Your stylesheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!--Font awesome icons -->
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- Jquery api -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!-- Your javascript file -->
+
+	<script src="js/main.js"></script>
+	<!-- <script src="js/subscribe.js"></script -->
+
+	<!-- Materialize links -->
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	<title>Cyberius 6017</title>
+
+
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <!--navbar-->
+        <nav class=" blue darken-1 z-depth-0" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">C Y B E R I U S<img class="logo-img responsive-img" src=""/>
+				</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="grey-text text-lighten-5 modal-trigger" href="#login">Login</a></li>
+          <li><a class="grey-text text-lighten-5 modal-trigger" href="#register">Register</a></li>
+            <li><a class="grey-text text-lighten-5" href="#">Team</a></li>
+           <li><a class="grey-text text-lighten-5" href="#">Contact</a></li>
+           <li><a class="grey-text text-lighten-5" href="history.html">History</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+       <li><a class="modal-trigger" href="#login">Login</a></li>
+          <li><a  class="modal-trigger" href="#register">Register</a></li>
+           <li><a href="team.html">Team</a></li>
+           <li><a href="#">Contact</a></li>
+           <li><a href="history.html">History</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars "></i></a>
+    </div>
+  </nav>
+
+    <div class="container center-align">
+      <img class="construction-img" src="img\under_construction.png">
+    </div>
+
+
+    <!--Footer -->
+		<div class="navbar-fixed">
+         <footer class="page-footer blue darken-1">
+          <div class="container center-align">
+
+			    <a class=" icon fa fa-facebook " aria-hidden="true"></a>
+			  	<a class=" icon fa fa-twitter " aria-hidden="true"></a>
+				<a class=" icon fa fa-instagram" aria-hidden="true"></a>
+
+
+          </div>
+          <div class="footer-copyright">
+            <div class="container center-align">
+            © Team 6017
+
+
+
+
+            </div>
+          </div>
+        </footer>
+    </div>
+
+
+    </body>
+
+<!--Login Modal -->
+  <div id="login" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4>
+      <form class="col s2">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="mail" type="email" class="validate">
+          <label for="email">E-mail</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Contraseña</label>
+        </div>
+      </div>
+    </form>
+    </div>
+    <div class="modal-footer">
+			<p id="warning_label" class="warning"><p>
+    	<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+      	<a  id="button1" href="#!" class="waves-effect waves-green btn-flat">Login</a>
+    </div>
+  </div>
+	<!--Register Modal-->
+	<div id="register" class="modal ">
+		<div class="modal-content">
+			<h4>Register</h4>
+			<form class="col s2">
+			<div class="row">
+				<div class="input-field col s12">
+					<input id="mail" type="email" class="validate">
+					<label for="email">Nombre</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s6">
+					<input id="password" type="password" class="validate">
+					<label for="password">Contraseña</label>
+				</div>
+
+
+				<div class="input-field col s6">
+					<input id="password" type="password" class="validate">
+					<label for="password">Verifica tu contraseña</label>
+				</div>
+			</div>
+				<div class="row">
+				<div class="input-field col s6">
+					<input id="password" type="password" class="validate">
+					<label for="password">E-mail</label>
+				</div>
+
+
+				<div class="input-field col s6">
+					<input id="password" type="password" class="validate">
+					<label for="password">RFID</label>
+				</div>
+
+			</div>
+
+
+
+		</form>
+		</div>
+		<div class="modal-footer">
+			<p id="warning_label" class="warning"><p>
+			<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+				<a  id="button1" href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+		</div>
+	</div>
+
+
+
+
+</html>
